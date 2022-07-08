@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Вход в систему</title>
+	<link rel="stylesheet" type="text/css" href="styleLogin.css">
+ </head>
+ <body>
+	<header>
+		<h2>Служба поддержки</h2>
+	</header>
+	<div class="loginbox">
+	<img src="avatar.png" class="avatar" action="PaulMatthewsServiceDeskM.html" method="GET">
+		<form class="form" id="login">
+			<h1 class="form__title">Вход</h1>
+			<div class="form__input-group">
+				<p>Электронный адрес</p>
+				<input type="email" id="Email" class="form__input" autofocus placeholder="Введите эл. адрес" required>
+				<div class="form__input-error-message"></div>
+			</div>
+			<div class="form__input-group">
+				<p>Пароль</p>
+				<input type="password" id="Password" class="form__input" autofocus placeholder="Введите пароль" required>
+				<div class="form__input-error-message"></div>
+			</div>
+			<div class="form__input-group">
+				<input type="submit" class="form__input" autofocus value="Войти">
+			</div>
+			<div class="form__message form__message--error"></div>
+		</form>
+	</div>
+	<script src="login.js"></script>
+	<footer>
+		<div>
+		   <p1>© 2022, МатвеевСервД</p1>
+		</div>
+	</footer>
+ </body>
+</html>

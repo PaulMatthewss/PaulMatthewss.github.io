@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(BG.jpg);
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+}
+
+h1{
+	width: 300px;
+	margin: 20px;
+	padding: 0 0 20px;
+	font-size: 45px;
+	color: white;
+	background-color: black;
+}
+
+p{
+	width: 300px;
+	margin: 20px;
+	padding: 0 0 20px;
+	font-size: 25px;
+	color: white;
+	background-color: black;
+}
+
+
+.Question{
+	width: 70%;
+	height: 70%;
+	background: transparent;
+	box-sizing: border-box;
+}
+
+.Question p1{
+	width: 300px;
+	margin: 50px;
+	padding: 0 0 20px;
+	font-size: 25px;
+	color: white;
+	background-color: black;
+}
+nav{
+	margin: 50px 50px 0;
+}
+.Question input{
+	width: 100%;
+}
+.Question input[type="text"]
+{
+	margin: 10px 50px;
+	padding: 0px 10px;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+.Question input[name="Prob"]{
+	padding: 0px 10px 400px;
+}
+
+.Question input[type="submit"]
+{
+	margin: 0px 50px 0;
+	width: 15%;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: teal;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 18px;
+}
+
+.Question input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: cyan;
+	color: #000;
+}
+
+button{
+	border: none;
+	outline: none;
+	height: 25px;
+	background: teal;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 18px;
+}
+
+a{
+	text-decoration: none;
+}
+
+p2{
+	position: absolute;
+	color: white;
+	top: 95%;
+	left: 50%;
+	transform: translate(-95%,-50%);
+	
+}

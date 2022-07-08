@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(BG.jpg);
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+}
+
+h1{
+	width: 300px;
+	margin: 20px;
+	padding: 0 0 20px;
+	font-size: 45px;
+	color: white;
+	background-color: black;
+}
+
+p{
+	margin: 20px;
+	padding: 0 0 20px;
+	font-size: 25px;
+	color: white;
+	background-color: black;
+}
+
+nav{
+	margin: 30px 20px 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+button{
+	border: none;
+	outline: none;
+	height: 25px;
+	background: teal;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 18px;
+}
+
+p1{
+	position: absolute;
+	color: white;
+	top: 95%;
+	left: 50%;
+	transform: translate(-95%,-50%);
+	
+}
+
+.tableForm {
+	width: 70%;
+	height: 70%;
+	margin: 20px 0px 0;
+}
+
+.tableForm caption{
+	width: 300px;
+	color: white;
+	background-color: black;
+	left: 35%;
+	position: relative;
+}
+
+.tableForm table{
+	width: 70%;
+	height: 40%;
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+
+tr{
+	color: black;
+	background-color: #fff;
+}
+
+.tableForm table td,.tableForm table th{
+	padding: 12px 15px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.tableForm table th{
+	background-color:rgb(145, 0, 182);
+	color: #ffffff;
+}

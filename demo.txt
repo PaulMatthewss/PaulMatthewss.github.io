@@ -1,0 +1,14 @@
+@keyframes example {
+  0% {color: white;}
+  50% {color: purple;}
+  100% {color: black;}
+}
+
+.form__message{
+	color: black;
+	animation-name: example;
+	animation-duration: 20s;
+}
+
+
+<b><big><span class="client"></span>users[i].name</big></b></p>

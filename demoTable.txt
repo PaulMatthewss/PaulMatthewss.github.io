@@ -1,0 +1,27 @@
+<form class="tableForm">
+      <table class="table">
+         <thead>
+            <caption><h2>История запросов</h2></caption>
+               <th>ID</th>
+               <th>Тема</th>
+               <th>Дата запроса</th>
+         </thead>
+         <tbody>
+            <tr>
+               <td>a</td>
+               <td>b</td>
+               <td>c</td>
+            </tr>
+            <tr>
+               <td>a</td>
+               <td>b</td>
+               <td>c</td>
+            </tr>
+            <tr>
+               <td>a</td>
+               <td>b</td>
+               <td>c</td>
+            </tr>
+         </tbody>
+      </table>
+   </form>
